@@ -52,6 +52,71 @@ h3 {
     padding-bottom: 78px;
 }
 
+.header {
+    color: #fff;
+    margin-bottom: 103px;
+    background: url('../img/preview.jpg') center no-repeat;
+
+    .nav {
+        height: 86px;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+
+        align-items: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.58);
+        margin-bottom: 142px;
+        .logo {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 22.8px;
+            span {
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: 1.145em;
+            }
+        }
+        .menu {
+            width: 600px;
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            height: 100%;
+            align-items: center;
+            justify-content: space-around;
+            li {
+                display: block;
+                text-align: center;
+
+            }
+            li:hover {
+                border-bottom: 3px solid #fff;
+            }
+            a {
+                color: #fff;
+            }
+        }
+        .phone {
+            color: #fff;
+        }
+    }
+
+    .preview {
+        .preview__text {
+            padding: 23px 0 21px;
+        }
+        .preview__btn {
+            margin-bottom: 168px;
+        }
+        .arrow {
+            display: block;
+            padding-bottom: 70px;
+        }
+    }
+}
+
 .business__row {
     display: flex;
     flex-direction: row;
