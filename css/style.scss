@@ -86,15 +86,29 @@ h3 {
             height: 100%;
             align-items: center;
             justify-content: space-around;
+
             li {
-                display: block;
-                text-align: center;
+
+                display: flex;
+                align-self: stretch;
+                align-items: center;
+                flex: 1 1 auto;
+                // padding: 0 auto;
+                // display: block;
+                // text-align: center;
+                .knopka {
+                    display: flex;
+                    margin: 0 auto;
+                }
 
             }
             li:hover {
-                border-bottom: 3px solid #fff;
+                position: relative;
+                top: 1px;
+                border-bottom: 2px solid #fff;
             }
             a {
+                padding: 20px 0;
                 color: #fff;
             }
         }

@@ -175,13 +175,22 @@ h3 {
   justify-content: space-around;
 }
 .header .nav .menu li {
-  display: block;
-  text-align: center;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex: 1 1 auto;
+}
+.header .nav .menu li .knopka {
+  display: flex;
+  margin: 0 auto;
 }
 .header .nav .menu li:hover {
-  border-bottom: 3px solid #fff;
+  position: relative;
+  top: 1px;
+  border-bottom: 2px solid #fff;
 }
 .header .nav .menu a {
+  padding: 20px 0;
   color: #fff;
 }
 .header .nav .phone {
